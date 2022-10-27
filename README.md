@@ -15,17 +15,7 @@ To deploy this project on Heroku, you'll need:
 
 ## Database
 
-This project will use the [postgresql Heroku addons](https://elements.heroku.com/addons/heroku-postgresql). The database configuration can be found in the `config/database.js` file. Using the existing configuration means that you project will also use the production postgresql database when running locally on your machine. 
-You will need to have the same `DATABASE_URL` that the addon will create on your Heroku project if you want to use the postresql database locally.
-
-  - Create an `.env` file at the root of your project containing the following code:
-
-```
-DATABASE_URL=...
-```
-
-If you want to use an SQLite database just for editing your collection-types, configurations locally on your machine, please comment the postgresql configuration in the `config/database.js` file and uncomment the SQLite one. 
-You can also create a `config/env/production/database.js` file containing the postgresql connection and only keep the SQLite connection in your `config/database.js`. This way you'll have two different database connection depending on the environment.
+This project will use SQLite database
 
 ## Upload
 
