@@ -1,4 +1,4 @@
-// const path = require("path");
+const path = require("path");
 
 const { parse } = require("pg-connection-string");
 
