@@ -5,10 +5,7 @@
     "strapi",
     "heroku"
   ],
-  "repository": "https://github.com/strapi/strapi-heroku-template",
-  "addons": [
-    "heroku-postgresql:hobby-dev"
-  ],
+  "repository": "https://github.com/vivmagarwal/strapi-heroku-template",
   "image": "heroku/nodejs",
   "buildpacks": [
     {
